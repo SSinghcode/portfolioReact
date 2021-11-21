@@ -45,14 +45,22 @@ export default function Profile() {
                 />
               </h1>
             </span>
-            <span className="pr-roletageline">
+            <span className="pr-roletagline">
              Web Applications and Artificial Intelligence Applications Developer
             </span>
           </div>
-
-        
+          <div className="profile-options">
+            <button className="btn primary-btn"
+           
+            > Hire Me </button>
+            <a href="Resume.pdf" download="Shamsher Resume.pdf">
+              <button className="btn highlighted-btn">Get Resume</button>
+            </a>
+          </div>
         </div>
-       
+        <div className="prpicture">
+          <div className="prpicturebackground"></div>
+        </div>
       </div>
     </div>
   );
