@@ -1,8 +1,12 @@
 #p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
-    color:#FF4C29
+    color:black;
 }
 .form{
+    text-align: center;
+}
+.contactcontainer{
+    background-color: #C2FFF9;
     text-align: center;
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 export default function Contact() {
     return (
-        <div> 
+        <div className="contactcontainer"> 
             <h3 id="contact">Contact</h3>
             <p id ="p">Please reach me @ Shamsherturna101@gmail.com</p>
             
