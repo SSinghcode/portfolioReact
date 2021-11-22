@@ -1,11 +1,12 @@
-import Profile from './PortfolioBox/Home/Profile';
+
 import './App.css';
+import Main from './PortfolioBox/Home/Main';
 
 function App() {
   return (
     
     <div className="App">
-    <Profile/>
+    <Main/>
     </div>
   );
 }
