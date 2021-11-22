@@ -3,6 +3,7 @@ import Typical from "react-typical";
 import './Profile.css'
 export default function Profile() {
     return (
+      
         <div className='pr-container'>
             <div className="pr-parent">
                 <div className='pr-details'>
