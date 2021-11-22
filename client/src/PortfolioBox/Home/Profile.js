@@ -1,5 +1,6 @@
 import React from 'react'
 import Typical from "react-typical";
+import './Profile.css'
 export default function Profile() {
     return (
         <div className='pr-container'>
@@ -29,13 +30,13 @@ export default function Profile() {
             </span>
           </div>
           <div className="pr-detailsrole">
-            <span className="primary-text">
+            <span className="pr-text">
               {" "}
               <h1>
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Full stack Developer 💻",
+                    "Full Stack Developer 💻",
                     2500,
                     "Machine Learning Engineer 📱",
                     2500,
@@ -49,7 +50,7 @@ export default function Profile() {
              Web Applications and Artificial Intelligence Applications Developer
             </span>
           </div>
-          <div className="profile-options">
+          <div className="pr-options">
             <button className="btn primary-btn"
            
             > Hire Me </button>

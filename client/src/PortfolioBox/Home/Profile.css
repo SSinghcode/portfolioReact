@@ -1,0 +1,138 @@
+.pr-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-color: #483434;
+  }
+  .pr-parent {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+  }
+  .pr-details{
+    font-size: 24px;
+    
+  }
+  .pr-detailsrole{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+  }
+  .pr-detailsrole h1 {
+    font-size: 40px;
+    font-family: "cursive";
+  }
+  .pr-text {
+    color: (--white);
+  }
+  .highlighted-text {
+    color: #FFFEB7;
+  }
+  .pr-roletagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    
+  }
+  .profile-options .highlighted-btn {
+    margin: 0 0 0 28px;
+    border-radius: 12px solid white;
+  }
+  .pr-options .highlighted-btn:hover {
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+  }
+  .prpicture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+  }
+  .prpicturebackground {
+    height: 92%;
+    width: 92%;
+    border-radius: 50%;
+    background-image: url("../../assets/Home/shamsher.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .prpicturebackground:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+  }
+  
+  .col .colicon i {
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+  }
+  .col .colicon i:hover {
+    transform: scale(1.5);
+  }
+  
+ 
+  @media only screen and (max-width: 1110px) {
+    .prpicture {
+      margin: 0 0px 0 80px;
+    }
+    .pr-detailsname {
+      font-size: 20px;
+    }
+    .pr-detailsrole .pr-text {
+      font: 12px;
+    }
+    .pr-options .btn {
+      width: 120px;
+      padding: 11px 0;
+      z-index: 700;
+    }
+  }
+  @media only screen and (max-width: 910px) {
+    .pr-picture {
+      margin: 0 0 0 4px;
+      height: 320px;
+      width: 320px;
+    }
+  }
+  @media only screen and (max-width: 810px) {
+    .prpicture {
+      margin: 0 !important;
+    }
+    .pr-parent {
+      flex-direction: column-reverse;
+      margin: 40px 0 0 0;
+    }
+    .pr-options {
+      display: flex;
+      justify-content: space-between;
+    }
+    .pr-details {
+      margin: 25px 0 0;
+    }
+    .pr-options .highlighted-btn {
+      margin: 0 !important;
+    }
+    .pr-detailsname,
+    .prdetailsrole {
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .prpicture {
+      height: 275px;
+      width: 275px;
+      margin-top: -90px;
+    }
+    .pr-details {
+      width: 95%;
+    }
+  }

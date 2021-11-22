@@ -17,7 +17,7 @@ body {
   width: 160px;
   cursor: pointer;
   transition: 0.3s;
-  font-family: "Poppins SemiBold";
+  font-family:  Georgia, serif;;
 }
 
 .btn:active {
@@ -39,9 +39,8 @@ body {
 
 .highlighted-btn {
   color: var(--white);
-
   font-size: 12px;
-  background-color: #ff5823;
+  background-color:#8A8635;
 }
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
