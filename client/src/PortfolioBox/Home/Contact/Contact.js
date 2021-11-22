@@ -6,7 +6,7 @@ export default function Contact() {
             <h3 id="contact">Contact</h3>
             <p id ="p">Please reach me @ Shamsherturna101@gmail.com</p>
             
-             <form>
+             <form className="form">
           
             <label htmlFor="name">Name</label>
             <input type="text"/>

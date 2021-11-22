@@ -16,8 +16,7 @@ export default function Work() {
                 <img className="img1" src={web1} alt="web1" />
                 <a href="https://ssinghcode.github.io/code/" target="_blank">
                 GitHub Link
-                </a>
-                
+                </a>   
             </div>
 
             <div>
