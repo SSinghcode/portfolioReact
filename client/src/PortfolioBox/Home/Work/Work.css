@@ -1,14 +1,10 @@
 .flex div {
-    flex: 1 1 400px;
-    justify-content: space-between;
-    margin: 20px 40px;
-  
-    transition: 0.5s;
+    display:block;
   }
   
 
   .img1{
-    display: flex;
+    display:block;
     align-items: center;
     justify-content: center;
     /* box-shadow: 0 1px 0px 0px var(--white);
@@ -31,5 +27,4 @@
     text-align: center;
     margin-top: 10px;
     color:chocolate;
-    
-}
+  }

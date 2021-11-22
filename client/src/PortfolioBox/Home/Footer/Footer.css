@@ -9,10 +9,10 @@
     width: 100%;
     height: 100%;
     max-width: 1920px;
-  }
-  .foo-parent img {
-    max-width: 100%;
-    height: 130px;
+   /* margin-bottom: 20px; */
+   margin-top: 40px;
+    background-color: #a8a8a8;
+    text-align: center;
   }
 
   @media only screen and (max-width: 1110px) {
