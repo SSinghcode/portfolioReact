@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <div> 
             <h3 id="contact">Contact</h3>
-            <p>Please reach me @ Shamsherturna101@gmail.com</p>
+            <p id ="p">Please reach me @ Shamsherturna101@gmail.com</p>
             
              <form>
           
