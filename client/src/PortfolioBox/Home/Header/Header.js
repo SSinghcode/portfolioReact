@@ -10,22 +10,12 @@ export default function Header() {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
-                    <li className="nav-item">
-
-                        <a className="nav-link" href="#application">Experience</a>
-                    </li>
+                <ul className="navbar-nav mr-auto">                
                     <li className="nav-item">
 
                         <a className="nav-link" href="#work">Work</a>
 
-                    </li>
-
-                    <li className="nav-item">
-
-                        <a className="nav-link" href="#skills">About me</a>
-
-                    </li>
+                    </li>            
                     <li className="nav-item">
 
                         <a className="nav-link" href="#contact">Contact</a>
